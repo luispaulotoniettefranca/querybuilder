@@ -2,6 +2,7 @@
 
 namespace Toniette\QueryBuilder;
 
+use Exception;
 use PDO;
 
 class QueryBuilder
