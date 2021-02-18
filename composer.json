@@ -1,0 +1,23 @@
+{
+  "name": "toniette/querybuilder",
+  "type": "library",
+  "description": "PDO based SQL Query Builder",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luís Paulo Toniette França",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "8.*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Toniette\\QueryBuilder\\": "src"
+    }
+  }
+}
